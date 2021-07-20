@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.galvanize'
+group 'com.statefarm'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -22,7 +22,7 @@ jar {
     manifest {
         attributes(
                 'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.galvanize.Application'
+                'Main-Class': 'com.statefarm.Application'
         )
     }
 }
