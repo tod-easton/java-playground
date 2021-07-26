@@ -18,19 +18,19 @@ public class MapTesting {
         return testMap(treeMap);
     }
 
-    private static String testMap (Map<Integer, String> map) {
-        map.put(1, "fox");
-        map.put(12, "dog");
-        map .put(8, "hippo");
-        map.put(3, "aardvark");
-        map.put(9, "pig");
-        map.put(0, "bird");
-        map.put(6, "elephant");
-        map.put(7, "tiger");
+    private static String testMap (Map<Integer, String> myMap) {
+        myMap.put(1, "fox");
+        myMap.put(12, "dog");
+        myMap .put(8, "hippo");
+        myMap.put(3, "aardvark");
+        myMap.put(9, "pig");
+        myMap.put(0, "bird");
+        myMap.put(6, "elephant");
+        myMap.put(7, "tiger");
 
         String result = "";
-        for (Integer key : map.keySet()) {  // iterates over keys (ex. 1, 12, 8, ...)
-            String value = map.get(key);
+        for (Integer key : myMap.keySet()) {  // iterates over keys (ex. 1, 12, 8, ...)
+            String value = myMap.get(key);
 //            System.out.println(key + ": " + value);
             result += key + ":" + value + " ";
         }

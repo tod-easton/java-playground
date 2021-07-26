@@ -15,33 +15,33 @@ public class SetTesting {
     return testSet(treeSet);
     }
 
-    private static String testSet (Set<String> set) {
-        set.add("Dodge");
-        set.add("Chevrolet");
-        set.add("Ford");
-        set.add("Nissan");
-        set.add("Volkswagen");
-        set.add("Ferrari");
+    private static String testSet (Set<String> mySet) {
+        mySet.add("Dodge");
+        mySet.add("Chevrolet");
+        mySet.add("Ford");
+        mySet.add("Nissan");
+        mySet.add("Volkswagen");
+        mySet.add("Ferrari");
 
         String result = "";
-        for (String car : set) {
+        for (String car : mySet) {
             result += car + " ";
         }
-        //System.out.println(set);
+        //System.out.println(mySet);
         return result;
 
         // To check common elements between sets
 //        Set<String> set2 = new TreeSet<>();
 //        set2.add("Dodge");
 //        set2.add("Chevrolet");
-//        set.add("Mazda");
-//        set.add("Kia");
-//        Set<String> intersection = new HashSet<>(set); // make a copy of initial set
+//        mySet.add("Mazda");
+//        mySet.add("Kia");
+//        Set<String> intersection = new HashSet<>(mySet); // make a copy of initial mySet
 //        intersection.retainAll(set2);
 //        System.out.println(intersection); // prints Dodge, Chevrolet
 
         // Conversely, check uncommon elements between sets
-//        Set<String> difference = new HashSet<>(set); // make a copy of initial set
+//        Set<String> difference = new HashSet<>(mySet); // make a copy of initial mySet
 //        intersection.removeAll(set2);
 //        System.out.println(intersection); // prints Nissan, Volkswagen, Ferrari, Mazda, Kia
     }
