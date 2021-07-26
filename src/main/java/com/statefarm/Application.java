@@ -7,6 +7,8 @@ import java.util.HashMap;
 public class Application {
 
     public static void main(String[] args) {
+        System.out.println(MapTesting.testingMaps());
+        System.out.println(SetTesting.testingSets());
 //        System.out.println("Hello World");
 
 //        int numStart = 45;
@@ -25,15 +27,15 @@ public class Application {
 //        System.out.println(String.format("Hello %s", args[0]));
 
         // testing Integer.parseInt
-        if (args.length != 2) {
-            System.out.println("You MUST pass 2 arguments");
-            System.exit(1);
-        }
-
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
-
-        System.out.println(a + b);
+//        if (args.length != 2) {
+//            System.out.println("You MUST pass 2 arguments");
+//            System.exit(1);
+//        }
+//
+//        int a = Integer.parseInt(args[0]);
+//        int b = Integer.parseInt(args[1]);
+//
+//        System.out.println(a + b);
     }
 
     // Implement the sortArray method below below
@@ -56,21 +58,26 @@ public class Application {
 //    Input [] should return ""
 //    Input ["Alice", "Bob"] should return "Alice and Bob"
 //    Input ["Alice", "Bob", "Carol"] should return "Alice, Bob and Carol"
-    String toSentence(String[] array) {
-        String result = "";
-        if(array.length == 0) {  // array[0].isEqual() to compare if element is String
-            return result;
-        }
-        result += array[0];
-        for(int i = 1; i < array.length; i++) {
-            if (i == array.length -1){
-                result += " and " + array[i];
-            } else {
-                result += ", " + array[i];
-            }
-        }
-        return result;
-    }
+//    String toSentence(String[] array) {
+//        String result = "";
+//        if(array.length == 0) {  // array[0].isEqual() to compare if element is String
+//            return result;
+//        }
+//        result += array[0];
+//        for(int i = 1; i < array.length; i++) {
+//            if (i == array.length -1){
+//                result += " and " + array[i];
+//            } else {
+//                result += ", " + array[i];
+//            }
+//        }
+//        return result;
+//    }
 
-
+// Lambda challenge
+//    String[] fileNames = {"My Report.csv", "The Best Deck.pdf", "Thanks for all the fishes.doc"};
+//    fileNames.forEach(words -> {
+//        String result = words.replaceAll(" ", "-");
+//        System.out.println(result);
+//    });
 }
