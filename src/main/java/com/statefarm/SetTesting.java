@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class SetTesting {
 
-    public static String testingSets (){
+    public static String testingSets() {
     Set<String> hashSet = new HashSet<String>(); // does not retain order
     Set<String> linkedHashSet = new LinkedHashSet<String>(); // sorted by order items added
     Set<String> treeSet = new TreeSet<String>(); // sorted by natural order
@@ -45,5 +45,4 @@ public class SetTesting {
 //        intersection.removeAll(set2);
 //        System.out.println(intersection); // prints Nissan, Volkswagen, Ferrari, Mazda, Kia
     }
-
 }

@@ -9,6 +9,7 @@ public class Application {
     public static void main(String[] args) {
         System.out.println(MapTesting.testingMaps());
         System.out.println(SetTesting.testingSets());
+        System.out.println(ListTesting.testingLists());
 //        System.out.println("Hello World");
 
 //        int numStart = 45;
