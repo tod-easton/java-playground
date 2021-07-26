@@ -29,5 +29,21 @@ public class SetTesting {
         }
         //System.out.println(set);
         return result;
+
+        // To check common elements between sets
+//        Set<String> set2 = new TreeSet<>();
+//        set2.add("Dodge");
+//        set2.add("Chevrolet");
+//        set.add("Mazda");
+//        set.add("Kia");
+//        Set<String> intersection = new HashSet<>(set); // make a copy of initial set
+//        intersection.retainAll(set2);
+//        System.out.println(intersection); // prints Dodge, Chevrolet
+
+        // Conversely, check uncommon elements between sets
+//        Set<String> difference = new HashSet<>(set); // make a copy of initial set
+//        intersection.removeAll(set2);
+//        System.out.println(intersection); // prints Nissan, Volkswagen, Ferrari, Mazda, Kia
     }
+
 }
