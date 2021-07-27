@@ -27,6 +27,7 @@ public class ListTesting {
         //myList.indexOf(1);  // returns the value at the passed index; in this case 1 = 'shirt'
         //myList.contains("shoes");  // returns true if value 'shoes" exists in myList, else false
         //myList.isEmpty();  // helpful to verify element is not empty (ex. if(!myList.isEmpty) {...} )
+        //myList.remove(myList.get(5));  // remove the element and index 5
         String result = "";
         for (String clothes : myList) {
             result += clothes + " ";

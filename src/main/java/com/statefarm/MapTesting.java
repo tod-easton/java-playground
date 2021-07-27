@@ -15,13 +15,13 @@ public class MapTesting {
 //        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
         Map<Integer, String> treeMap = new TreeMap<Integer, String>(); // sorted by key
 
-        return testMap(treeMap);
+        return testMap(linkedHashMap);
     }
 
     private static String testMap (Map<Integer, String> myMap) {
         myMap.put(1, "fox");
         myMap.put(12, "dog");
-        myMap .put(8, "hippo");
+        myMap.put(8, "hippo");
         myMap.put(3, "aardvark");
         myMap.put(9, "pig");
         myMap.put(0, "bird");

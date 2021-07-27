@@ -76,7 +76,10 @@ public class Application {
 //    }
 
 // Lambda challenge
-//    String[] fileNames = {"My Report.csv", "The Best Deck.pdf", "Thanks for all the fishes.doc"};
+//    String[] fileNames = new String[3]; // or {"My Report.csv", "The Best Deck.pdf", "Thanks for all the fishes.doc"};
+//    fileNames[0] = "My Report.csv";
+//    fileNames[0] = "The Best Deck.pdf";
+//    fileNames[0] = "Thanks for all the fishes.doc";
 //    fileNames.forEach(words -> {
 //        String result = words.replaceAll(" ", "-");
 //        System.out.println(result);
