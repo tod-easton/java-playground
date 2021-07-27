@@ -21,7 +21,12 @@ public class ListTesting {
         myList.add("shorts"); // duplicate elements are allowed in a LinkedList
         myList.add("shoes");
         myList.add("sunglasses");
-
+        //myList.get(index);
+        //myList.set(index, 'new value');
+        //myList.size();  // returns # of elements in the Array
+        //myList.indexOf(1);  // returns the value at the passed index; in this case 1 = 'shirt'
+        //myList.contains("shoes");  // returns true if value 'shoes" exists in myList, else false
+        //myList.isEmpty();  // helpful to verify element is not empty (ex. if(!myList.isEmpty) {...} )
         String result = "";
         for (String clothes : myList) {
             result += clothes + " ";
@@ -30,7 +35,7 @@ public class ListTesting {
         Iterator iter = myList.iterator();
         while (iter.hasNext()) {
             if (iter.next() == "shorts") {
-                System.out.println("Iter found 'shorts'");
+                System.out.println("iter found 'shorts'");
             }
         }
         //System.out.println(myList);
