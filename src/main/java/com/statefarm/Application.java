@@ -84,4 +84,32 @@ public class Application {
 //        String result = words.replaceAll(" ", "-");
 //        System.out.println(result);
 //    });
+
+
+//Try / Catch
+//try {
+//        result = riskyProcess.run(input);
+//    } catch (NullPointerException ex) {
+//        System.out.println("encountered null pointer");
+//    } catch (IndexOutOfBoundsException e) {
+//        System.out.println("index out of bounds");
+//    } finally {
+//        System.out.println("Done"); // always print this, no matter what
+//    }
+
+// System.out.println(result);
+
+//Throwing Exceptions
+// define IceCreamException class here
+//public static class IceCreamException extends Exception {
+//    public IceCreamException(String message) {
+//        super(message);
+//    }
+//}
+//
+//    public static void run() throws IceCreamException{
+//        // throw your IceCreamException here
+//        throw new IceCreamException("Sorry, no vanilla left");
+//    }
+
 }
